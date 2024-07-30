@@ -1,1 +1,77 @@
 
+body {
+    background-color: #ffe4e1; /* light pink background */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* hot pink */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Brush Script MT', cursive;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #ffb6c1; /* light pink */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff69b4; /* hot pink */
+}
+
+main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #ff69b4; /* hot pink border */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ff69b4; /* hot pink */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
